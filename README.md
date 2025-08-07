@@ -3,7 +3,7 @@
 <p align="center">
    <img src="https://img.shields.io/badge/STATUS-TERMINADO-GREEN">
    <img src="https://img.shields.io/badge/Java-17-orange">
-   <img src="https://img.shields.io/badge/Spring%20Boot-3.1.0-brightgreen">
+   <img src="https://img.shields.io/badge/Spring%20Boot-3.5.4-brightgreen">
    <img src="https://img.shields.io/badge/PostgreSQL-blue">
 </p>
 
@@ -11,9 +11,7 @@
 * [Descripción del proyecto](#descripción-del-proyecto)
 * [Características de la aplicación](#características-de-la-aplicación)
 * [Demostración de la aplicación](#demostración-de-la-aplicación)
-* [Acceso al proyecto](#acceso-al-proyecto)
 * [Herramientas utilizadas](#herramientas-utilizadas)
-* [Estructura del proyecto](#estructura-del-proyecto)
 * [Funcionalidades técnicas destacadas](#funcionalidades-técnicas-destacadas)
 * [Autora](#autora)
 
@@ -43,7 +41,6 @@ En este proyecto se aplican los siguientes conceptos:
 - **Búsqueda de autores vivos** en un año específico
 
 ### 💻 **Interfaz de Usuario**
-- **Menú interactivo** por consola
 - **Navegación intuitiva** con opciones numeradas
 - **Validación de entrada** y manejo de errores
 - **Mensajes informativos** claros y detallados
@@ -70,7 +67,7 @@ Ingrese el nombre del libro que desea buscar:
 > Don Quijote
 
 ********** LIBRO **********
-Título: Don Quixote
+Título: Don Quijote
 Autor: Cervantes Saavedra, Miguel de
 Idioma: en
 Número de descargas: 12345.0
@@ -78,11 +75,6 @@ Número de descargas: 12345.0
 
 Libro guardado en la base de datos
 ```
-
-## 📁 Acceso al proyecto
-
-Puedes acceder al [código fuente del proyecto](https://github.com/Liasson09/challenge-LiterAlura).
-
 ## 🛠️ Herramientas utilizadas
 
 ### Backend
@@ -102,34 +94,6 @@ Puedes acceder al [código fuente del proyecto](https://github.com/Liasson09/cha
 ### Herramientas de desarrollo
 * **IntelliJ IDEA** - IDE recomendado
 * **Git** - Control de versiones
-
-## 📂 Estructura del proyecto
-
-```
-src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── milagros/
-│   │           └── LiterAlura/
-│   │               ├── LiterAluraApplication.java
-│   │               ├── model/
-│   │               │   ├── Autor.java
-│   │               │   ├── Libro.java
-│   │               │   ├── DatosAutor.java
-│   │               │   ├── DatosLibros.java
-│   │               │   └── DatosResultados.java
-│   │               ├── repository/
-│   │               │   └── LibroRepository.java
-│   │               ├── service/
-│   │               │   ├── ConsumoAPI.java
-│   │               │   └── ConvierteDatos.java
-│   │               └── principal/
-│   │                   └── Principal.java
-│   └── resources/
-│       └── application.properties
-└── pom.xml
-```
 
 ### Descripción de componentes principales:
 
